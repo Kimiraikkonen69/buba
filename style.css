@@ -1,0 +1,51 @@
+.navbar {
+  background: #efdf10;
+  border-radius: 5px;
+}
+
+.nav-item a:hover {
+  transform: scale(0.9);
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 24px;
+  font-weight: 400;
+  transition: all 0.8s;
+}
+
+@media all and (max-width: 992px) {
+  #collapse_target {
+    position: absolute;
+    width: calc(100% - 32px);
+    height: calc(70vh - 200px);
+    padding-left: 10%;
+    top: 150px;
+    left: 16px;
+    background: rgba(224, 182, 40, 0.84);
+    z-index: 1;
+    border-radius: 3px;
+  }
+  #collapse_target li:hover {
+    background: rgba(113, 129, 162, 0.73);
+  }
+  #collapse_target li:nth-of-type(6):hover {
+    background: none;
+  }
+  #collapse_target li:nth-of-type(7):hover {
+    background: none;
+  }
+}
+
+.carousel-inner {
+  border-radius: 5px;
+  height: 20vh;
+}
+
+.carousel-item {
+  transition: all 0.5s;
+}
+.carousel-item img {
+  height: 20vh;
+}
+
+/*# sourceMappingURL=style.css.map */
