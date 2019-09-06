@@ -1,7 +1,10 @@
 body  {
 }
 .navbar {
-  background: #efdf10;
+  background-image: linear-gradient(to right, #efdf10, #c1b110);
+  border-radius: 5px;
+}
+.nav-item {
   border-radius: 5px;
 }
 .nav-item a:hover {
@@ -20,11 +23,11 @@ body  {
     padding-left: 10%;
     top: 150px;
     left: 16px;
-    background: rgba(224, 182, 40, 0.84);
-    z-index: 1;
+    background: #efdf10;
+    z-index: 16;
     border-radius: 3px;
     li:hover {
-      background: rgba(113, 129, 162, 0.73);
+      background: rgba(162, 111, 19, 0.73);
     }
     li:nth-of-type(6):hover {
       background: none;
@@ -43,4 +46,30 @@ body  {
   img {
     height: 20vh;
   }
+}
+.tab-content>.active {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#footer {
+  height: 10vh;
+  margin-top: 1vh;
+  border-radius: 5px;
+}
+#footer div {
+  background: #efdf10;
+  border-radius: 5px;
+}
+#social {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  padding-top: 2vh;
+}
+#social a img {
+  transition: all 0.5s;
+}
+#social a img:hover {
+  transform: scale(0.7);
 }
